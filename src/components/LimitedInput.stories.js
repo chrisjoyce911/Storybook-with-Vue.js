@@ -2,13 +2,15 @@ import LimitedInput from "./LimitedInput";
 
 export default {
     title: "Forms/LimitedInput",
-  };
-  
+    decorators: [() => "<div class='m-4'><story/></div>"],
+};
+
 export const SimpleStory = () => ({
   render() {
     return <LimitedInput />;
   },
 });
+
 SimpleStory.story = { name: "Simple Story (bis)" };
 
 export const simpleWithTemplate = () => ({

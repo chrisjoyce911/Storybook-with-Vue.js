@@ -1,4 +1,4 @@
-import './assets/tailwind.css'
+import "../../src/assets/tailwind.css";
 
 import { addParameters } from "@storybook/vue";
 
