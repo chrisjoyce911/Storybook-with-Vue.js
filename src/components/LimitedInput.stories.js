@@ -1,14 +1,15 @@
 import LimitedInput from "./LimitedInput";
 
 export default {
-  title: "LimitedInput",
-};
-
-export const Simple = () => ({
+    title: "Forms/LimitedInput",
+  };
+  
+export const SimpleStory = () => ({
   render() {
     return <LimitedInput />;
   },
 });
+SimpleStory.story = { name: "Simple Story (bis)" };
 
 export const simpleWithTemplate = () => ({
   components: { LimitedInput },
